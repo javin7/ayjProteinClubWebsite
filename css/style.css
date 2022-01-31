@@ -2639,7 +2639,7 @@ div h5, h6{
     padding: 0;
 }
 .our-team .content-our-team.our-team-tabs {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+    border-bottom: 5px solid #242424;
 }
 .content-our-team.our-team-tabs .our-team-pane {
     background: none repeat scroll 0 0 #ec3642;
