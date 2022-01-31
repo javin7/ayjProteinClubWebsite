@@ -2713,9 +2713,11 @@ div h5, h6{
 .content-our-team.our-team-tabs .our-team-nav span.our-team-name + span.our-team-position {
     padding-top: 8px;
 }
-.yoga-trainer, .boxing-trainer {
-    margin-left: -4px;
+
+.president, .vice-president, .web-developer, .head-of-operations,.lead-media-designer, .media-designer, .secretary, .trainer {
+    margin-left: -3.5px;
 }
+
 .our-team-tabs .our-team-img{padding:0;} 
 .our-team-head {
   padding: 15px 15px 30px;
@@ -2724,9 +2726,9 @@ div h5, h6{
 }
 .headding-title{margin-bottom:20px;}
 .headding-bottom {
-    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 0px solid rgba(255, 255, 255, 0.2);
     width: 70px;
-}
+} 
 .headding-content {
     padding-left: 0;
     overflow: hidden;
