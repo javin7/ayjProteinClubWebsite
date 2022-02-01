@@ -123,7 +123,7 @@
                     done: function () {
                         setTimeout(function () {
                             adv.animate({'top': 0, 'height': '100%'}, {
-                                duration: 500,
+                                duration: 250,
                                 step: function (now, fx) {
                                 },
                                 done: function () {
@@ -132,7 +132,7 @@
                                     } else {
                                         setTimeout(function () {
                                             adv.animate({'left': 0, 'width': '100%'}, {
-                                                duration: 500,
+                                                duration: 250,
                                                 step: function (now, fx) {
                                                 },
                                                 done: function () {
