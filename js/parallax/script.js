@@ -123,7 +123,7 @@
                     done: function () {
                         setTimeout(function () {
                             adv.animate({'top': 0, 'height': '100%'}, {
-                                duration: 1000,
+                                duration: 500,
                                 step: function (now, fx) {
                                 },
                                 done: function () {
@@ -132,7 +132,7 @@
                                     } else {
                                         setTimeout(function () {
                                             adv.animate({'left': 0, 'width': '100%'}, {
-                                                duration: 1000,
+                                                duration: 500,
                                                 step: function (now, fx) {
                                                 },
                                                 done: function () {
@@ -335,7 +335,7 @@
                 }
                 adv.find('.parallax-background').css({left: btParallax.back_posX + 'px', top: '0px'});
                 adv.find('.nav-wrap').addClass('hidden');
-                adv.animate({'top': btParallax.eTopCenter, 'height': btParallax.para_height}, 1000, 'easeInOutQuint', function () {
+                adv.animate({'top': btParallax.eTopCenter, 'height': btParallax.para_height}, 500, 'easeInOutQuint', function () {
                     setTimeout(function () {
                         var espeed = s * options.speed;
                         if (espeed < 500) {
