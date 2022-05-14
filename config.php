@@ -2,7 +2,7 @@
 /***
 DEFINE YOUR CONTACT EMAIL FORM
 ***/
-$mailTo = 'inwavethemes@gmail.com';
+$mailTo = 'javinliu09@gmail.com';
 $mailSubject = 'You have a message from [FROM-NAME] [FROM-EMAIL]';
 $mailMessage = '[FROM-NAME] send you a message:<br> [MESSAGE]';
 
