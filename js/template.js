@@ -452,7 +452,7 @@
 		panelLoadSetting();
 
 	}
-	function panelBindEvents() {
+	/*function panelBindEvents() {
 		var clickOutSite = true;
 		$('.panel-button').click(function () {
 			if (!$(this).hasClass('active')) {
@@ -586,7 +586,7 @@
 			}
 		});
 		
-	}
+	}*/
 	function panelAddOverlay() {
 		if ($('.layout-setting .active').hasClass('boxed')) {
 			$('.overlay-setting').removeClass('disabled');
